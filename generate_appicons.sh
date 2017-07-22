@@ -19,10 +19,8 @@ fi
 
 for i in {16,32,128,256,512}
 do
-	echo $i
-	sips -Z $i --out {filename##*.}-${i}x${i}.png $filename
-	echo $((i*2))
-	sips -Z $((i*2)) --out {filename##*.}-${i}x${i}@2x.png $filename
+	sips -Z $i --out ${filename%.*}-${i}x${i}.png $filename
+	sips -Z $((i*2)) --out ${filename%.*}-${i}x${i}@2x.png $filename
 done
 
 
