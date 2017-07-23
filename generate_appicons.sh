@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 E_NOARGS=85
 E_NOTFOUND=86
