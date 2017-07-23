@@ -3,6 +3,8 @@ Generate Xcode AppIcons for Mac OS X applications.
 
 The generate_appicons.sh script uses the standard Mac OS X command line tool 'sips' to scale a given icon into the sizes required by an OS X application.
 
+Ref: https://developer.apple.com/macos/human-interface-guidelines/icons-and-images/image-size-and-resolution/
+
 Example of usage:
 
 ```
